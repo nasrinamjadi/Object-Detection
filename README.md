@@ -9,8 +9,7 @@ This project focuses on object detection, tracking, and knowledge distillation u
 |---------------|------------|
 | [report.pdf](report.pdf) | Detailed explanation of the task, setup, methodology  and results |
 | [dataset/test-data](dataset/test-data) | Four test frames were manually labeled using the LabelImg annotation tool for evaluation purposes|
-| [dataset/unlabeled](dataset/unlabeled) | 175 unlabeled images used for knowledge distillation from the VLM to the YOLO model |
-| [dataset/](dataset/) | Unlabeled images used to finetune the YOLO model through VLM pseudo labeling |
+| 'dataset/unlabeled' | 175 unlabeled images used for knowledge distillation from the VLM to the YOLO model |
 | [output-videos/](output-videos/) | Final generated videos produced by the detection and tracking pipeline |
 | `*.py` files | Source code for model inference, tracking and evaluation |
 
