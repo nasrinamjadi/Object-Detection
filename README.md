@@ -1,6 +1,6 @@
 ### 📌 Task Overview
 
-This project focuses on object detection, tracking, and knowledge distillation using VLM-based pseudo-labeling and YOLO models. A full description of the task, methodology, and results is provided in [report.pdf](report.pdf)
+This project focuses on object detection, tracking, and knowledge distillation using VLM-based pseudo-labeling and YOLO models. A full description of the task, methodology and results is provided in [report.pdf](report.pdf)
 .
 
 ### 📌 Project Structure
@@ -8,7 +8,7 @@ This project focuses on object detection, tracking, and knowledge distillation u
 | Folder / File | Description |
 |---------------|------------|
 | [report.pdf](report.pdf) | Detailed explanation of the task, setup, methodology  and results |
-| `test_data` | Contains 4 labeled frames used for evaluation and testing |
+| [dataset/test-data](dataset/test-data) | Contains 4 labeled frames used for evaluation and testing |
 | [dataset/](dataset/) | Unlabeled images used to finetune the YOLO model through VLM pseudo labeling |
 | [output-videos/](output-videos/) | Final generated videos produced by the detection and tracking pipeline |
 | `*.py` files | Source code for model inference, tracking and evaluation |
